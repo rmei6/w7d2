@@ -10,6 +10,16 @@
   </head>
 
   <body>
-     
+     <h1>User Login</h1>
+     <form action="<%= session_url %>" method = "POST">
+     <%= auth_token %>
+      <label for="Email">Email
+        <input type="text" id = "Email" name = "user[email]">
+      </label>
+      <label for="Password">Password
+        <input type="text" id = "Password" name = "user[password]">
+      </label>
+      <input type="submit" value="Login">
+     </form>
   </body>
 </html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MusicApp</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+  <h1>Create Band</h1>
+     <form action="<%= bands_url %>" method = "POST">
+     <%= auth_token %>
+      <label for="Name">Name
+        <input type="text" id = "Name" name = "band[name]">
+      </label>
+      <input type="submit" value="Create Band">
+     </form>
+  </body>
+</html>

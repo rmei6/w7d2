@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MusicApp</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+  <h1>Create Album</h1>
+     <form action="<%= bands_url %>" method = "POST">
+     <%= auth_token %>
+      <label for="Title">Title
+        <input type="text" id = "Title" name = "album[title]">
+      </label>
+      <label for="Year">Year
+        <input type="number" id = "Year" name = "album[year]" min="0">
+      </label>
+      <label for="Band_id">Band_id
+        <select id = "Band_id" name = "album[band_id]">
+          <option disabled selected>-- select a band id --</option>
+          <% @bands.each do |band| %>
+            <option value="<%= band.id %>"></option>
+          <% end %>
+      </label>
+      <label for="Live">Live
+        <input type="radio" id = "Live" name = "album[live]" value = true checked>
+      </label>
+      <label for="Studio">Studio
+        <input type="radio" id = "Studio" name = "album[live]" value = false>
+      </label>
+      <input type="submit" value="Create Band">
+     </form>
+  </body>
+</html>
