@@ -12,7 +12,7 @@
   <body>
     <% @bands.each do |band| %>
     <br>
-     <a href="<%= band_url(band) %>"><%= band.name %></a>
+     <a href="<%= band_url(band) %>"><%= band.id %>.<%= band.name %></a>
     <% end %>
   </body>
 </html>

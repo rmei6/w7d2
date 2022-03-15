@@ -1,24 +1,21 @@
 class AlbumsController < ApplicationController
   def new
     @bands = Band.all
-    if params.has_key?(:band_id)
-      @album = Album.new
-      render :new
-    else
-      redirect_to :new
-    end
+    @album = Album.new
+    render :new
   end
 
   def create
     @album = Album.new(album_params)
-    if @album.save
-      redirect_to albums_url
+    if @album.save!                  
+      redirect_to album_url(@album)
     else
       redirect_to :new
     end
   end
 
   def edit
+    @bands = Band.all
     @album = Album.find(params[:id])
     render :edit
   end

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MusicApp</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+  <h1>Edit Album</h1>
+     <form action="<%= albums_url %>/<%= @album.id %>" method = "POST">   <%# had to do special action for nested routes %>
+     <%= auth_token %>
+     <input type="hidden" name="_method" value="PATCH">
+      <label for="Title">Title
+        <input type="text" id = "Title" name = "album[title]" value="<%= @album.title %>">
+      </label>
+      <label for="Year">Year
+        <input type="number" id = "Year" name = "album[year]" min="0" value = <%= @album.year %>>
+      </label>
+      <label for="Band_id">Band Name
+        <select id = "Band_id" name = "album[band_id]">
+          <option disabled >-- select a band name --</option>
+          <% @bands.each do |band| %>
+            <% if @album.band_id == band.id %>
+              <option value="<%= band.id %>" selected><%= band.name %></option>
+            <% else %>
+              <option value="<%= band.id %>"><%= band.name %></option>
+            <% end %>
+          <% end %>
+      </label>
+        <% if @album.live %>
+          <input type="radio" id = "Live" name = "album[live]" value = true checked>
+        <% else %>
+          <input type="radio" id = "Live" name = "album[live]" value = true>
+        <% end %>
+      <label for="Live">Live</label>
+        <% if @album.live %>
+          <input type="radio" id = "Studio" name = "album[live]" value = false>
+        <% else %>
+          <input type="radio" id = "Studio" name = "album[live]" value = false checked>
+        <% end %>
+      <label for="Studio">Studio</label>
+      <input type="submit" value="Edit Album">
+     </form>
+  </body>
+</html>

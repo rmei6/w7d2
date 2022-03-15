@@ -11,7 +11,7 @@
 
   <body>
   <h1>Create Album</h1>
-     <form action="<%= bands_url %>" method = "POST">
+     <form action="<%= albums_url %>" method = "POST">
      <%= auth_token %>
       <label for="Title">Title
         <input type="text" id = "Title" name = "album[title]">
@@ -19,20 +19,18 @@
       <label for="Year">Year
         <input type="number" id = "Year" name = "album[year]" min="0">
       </label>
-      <label for="Band_id">Band_id
+      <label for="Band_id">Band Name
         <select id = "Band_id" name = "album[band_id]">
-          <option disabled selected>-- select a band id --</option>
+          <option disabled selected>-- select a band name --</option>
           <% @bands.each do |band| %>
-            <option value="<%= band.id %>"></option>
+            <option value="<%= band.id %>"><%= band.name %></option>
           <% end %>
       </label>
-      <label for="Live">Live
-        <input type="radio" id = "Live" name = "album[live]" value = true checked>
-      </label>
-      <label for="Studio">Studio
-        <input type="radio" id = "Studio" name = "album[live]" value = false>
-      </label>
-      <input type="submit" value="Create Band">
+        <input type="radio" name = "album[live]" id = "Live" value = true checked>
+      <label for="Live">Live</label>
+        <input type="radio" name = "album[live]" id = "Studio" value = false>
+      <label for="Studio">Studio</label>
+      <input type="submit" value="Create Album">
      </form>
   </body>
 </html>

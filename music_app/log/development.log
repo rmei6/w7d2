@@ -2096,3 +2096,1747 @@ Migrating to CreateAlbums (20220315185907)
   ↳ bin/rails:9
   [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
   ↳ bin/rails:9
+Started GET "/album/new" for ::1 at 2022-03-15 16:06:58 -0400
+  [1m[35m (3.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.7/lib/active_record/log_subscriber.rb:98
+  
+ActionController::RoutingError (No route matches [GET] "/album/new"):
+  
+actionpack (5.2.7) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.7) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.7) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.7) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.7) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.7) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.7) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.7) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.7) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/bands/band_id/album/new" for ::1 at 2022-03-15 16:07:28 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/bands/band_id/album/new"):
+  
+actionpack (5.2.7) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.7) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.7) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.7) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.7) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.7) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.7) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.7) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.7) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/bands/1/album/new" for ::1 at 2022-03-15 16:07:36 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/bands/1/album/new"):
+  
+actionpack (5.2.7) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.7) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.7) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.7) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.7) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.7) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.7) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.7) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.7) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/bands/1/albums/new" for ::1 at 2022-03-15 16:07:46 -0400
+Processing by AlbumsController#new as HTML
+  Parameters: {"band_id"=>"1"}
+  Rendering albums/new.html.erb within layouts/application
+  [1m[36mBand Load (1.8ms)[0m  [1m[34mSELECT "bands".* FROM "bands"[0m
+  ↳ app/views/albums/new.html.erb:25
+  Rendered albums/new.html.erb within layouts/application (364.4ms)
+  [1m[36mUser Load (1.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:8
+Completed 200 OK in 497ms (Views: 407.6ms | ActiveRecord: 62.5ms)
+
+
+Started GET "/bands/1/albums/new" for ::1 at 2022-03-15 16:08:26 -0400
+Processing by AlbumsController#new as HTML
+  Parameters: {"band_id"=>"1"}
+  Rendering albums/new.html.erb within layouts/application
+  [1m[36mBand Load (1.3ms)[0m  [1m[34mSELECT "bands".* FROM "bands"[0m
+  ↳ app/views/albums/new.html.erb:25
+  Rendered albums/new.html.erb within layouts/application (71.6ms)
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:8
+Completed 200 OK in 117ms (Views: 112.8ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/bands/1/albums/new" for ::1 at 2022-03-15 16:08:53 -0400
+Processing by AlbumsController#new as HTML
+  Parameters: {"band_id"=>"1"}
+  Rendering albums/new.html.erb within layouts/application
+  [1m[36mBand Load (0.7ms)[0m  [1m[34mSELECT "bands".* FROM "bands"[0m
+  ↳ app/views/albums/new.html.erb:25
+  Rendered albums/new.html.erb within layouts/application (104.4ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:8
+Completed 200 OK in 146ms (Views: 143.5ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/bands/1/albums/new" for ::1 at 2022-03-15 16:08:57 -0400
+Processing by AlbumsController#new as HTML
+  Parameters: {"band_id"=>"1"}
+  Rendering albums/new.html.erb within layouts/application
+  [1m[36mBand Load (0.6ms)[0m  [1m[34mSELECT "bands".* FROM "bands"[0m
+  ↳ app/views/albums/new.html.erb:25
+  Rendered albums/new.html.erb within layouts/application (40.1ms)
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:8
+Completed 200 OK in 69ms (Views: 66.3ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/bands/1/albums/new" for ::1 at 2022-03-15 16:11:58 -0400
+Processing by AlbumsController#new as HTML
+  Parameters: {"band_id"=>"1"}
+  Rendering albums/new.html.erb within layouts/application
+  [1m[36mBand Load (1.1ms)[0m  [1m[34mSELECT "bands".* FROM "bands"[0m
+  ↳ app/views/albums/new.html.erb:25
+  Rendered albums/new.html.erb within layouts/application (99.9ms)
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:8
+Completed 200 OK in 162ms (Views: 158.9ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/bands/1/albums/new" for ::1 at 2022-03-15 16:12:19 -0400
+Processing by AlbumsController#new as HTML
+  Parameters: {"band_id"=>"1"}
+  Rendering albums/new.html.erb within layouts/application
+  [1m[36mBand Load (0.6ms)[0m  [1m[34mSELECT "bands".* FROM "bands"[0m
+  ↳ app/views/albums/new.html.erb:25
+  Rendered albums/new.html.erb within layouts/application (48.6ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:8
+Completed 200 OK in 84ms (Views: 81.7ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/bands/1/albums/new" for ::1 at 2022-03-15 16:12:37 -0400
+Processing by AlbumsController#new as HTML
+  Parameters: {"band_id"=>"1"}
+  Rendering albums/new.html.erb within layouts/application
+  [1m[36mBand Load (0.8ms)[0m  [1m[34mSELECT "bands".* FROM "bands"[0m
+  ↳ app/views/albums/new.html.erb:25
+  Rendered albums/new.html.erb within layouts/application (63.1ms)
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:8
+Completed 200 OK in 168ms (Views: 165.0ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/bands/1/albums/new" for ::1 at 2022-03-15 16:13:33 -0400
+Processing by AlbumsController#new as HTML
+  Parameters: {"band_id"=>"1"}
+  Rendering albums/new.html.erb within layouts/application
+  [1m[36mBand Load (7.1ms)[0m  [1m[34mSELECT "bands".* FROM "bands"[0m
+  ↳ app/views/albums/new.html.erb:25
+  Rendered albums/new.html.erb within layouts/application (60.7ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:8
+Completed 200 OK in 108ms (Views: 99.8ms | ActiveRecord: 7.5ms)
+
+
+Started GET "/bands/1/albums/new" for ::1 at 2022-03-15 16:15:29 -0400
+Processing by AlbumsController#new as HTML
+  Parameters: {"band_id"=>"1"}
+  Rendering albums/new.html.erb within layouts/application
+  [1m[36mBand Load (2.4ms)[0m  [1m[34mSELECT "bands".* FROM "bands"[0m
+  ↳ app/views/albums/new.html.erb:25
+  Rendered albums/new.html.erb within layouts/application (60.0ms)
+  [1m[36mUser Load (7.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:8
+Completed 200 OK in 210ms (Views: 199.2ms | ActiveRecord: 9.5ms)
+
+
+Started GET "/bands/1/albums/new" for ::1 at 2022-03-15 16:16:24 -0400
+Processing by AlbumsController#new as HTML
+  Parameters: {"band_id"=>"1"}
+  Rendering albums/new.html.erb within layouts/application
+  [1m[36mBand Load (2.6ms)[0m  [1m[34mSELECT "bands".* FROM "bands"[0m
+  ↳ app/views/albums/new.html.erb:25
+  Rendered albums/new.html.erb within layouts/application (78.7ms)
+  [1m[36mUser Load (4.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:8
+Completed 200 OK in 116ms (Views: 107.7ms | ActiveRecord: 7.2ms)
+
+
+Started GET "/bands/1/albums/new" for ::1 at 2022-03-15 16:16:39 -0400
+Processing by AlbumsController#new as HTML
+  Parameters: {"band_id"=>"1"}
+  Rendering albums/new.html.erb within layouts/application
+  [1m[36mBand Load (19.4ms)[0m  [1m[34mSELECT "bands".* FROM "bands"[0m
+  ↳ app/views/albums/new.html.erb:25
+  Rendered albums/new.html.erb within layouts/application (64.1ms)
+  [1m[36mUser Load (111.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:8
+Completed 200 OK in 324ms (Views: 192.6ms | ActiveRecord: 130.6ms)
+
+
+Started GET "/bands/1/albums/new" for ::1 at 2022-03-15 16:16:41 -0400
+Processing by AlbumsController#new as HTML
+  Parameters: {"band_id"=>"1"}
+  Rendering albums/new.html.erb within layouts/application
+  [1m[36mBand Load (2.2ms)[0m  [1m[34mSELECT "bands".* FROM "bands"[0m
+  ↳ app/views/albums/new.html.erb:25
+  Rendered albums/new.html.erb within layouts/application (87.2ms)
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:8
+Completed 200 OK in 143ms (Views: 139.3ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/bands/1/albums/new" for ::1 at 2022-03-15 16:17:21 -0400
+Processing by AlbumsController#new as HTML
+  Parameters: {"band_id"=>"1"}
+  Rendering albums/new.html.erb within layouts/application
+  [1m[36mBand Load (0.5ms)[0m  [1m[34mSELECT "bands".* FROM "bands"[0m
+  ↳ app/views/albums/new.html.erb:25
+  Rendered albums/new.html.erb within layouts/application (56.5ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:8
+Completed 200 OK in 94ms (Views: 91.8ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/bands/1/albums/new" for ::1 at 2022-03-15 16:17:23 -0400
+Processing by AlbumsController#new as HTML
+  Parameters: {"band_id"=>"1"}
+  Rendering albums/new.html.erb within layouts/application
+  [1m[36mBand Load (0.7ms)[0m  [1m[34mSELECT "bands".* FROM "bands"[0m
+  ↳ app/views/albums/new.html.erb:25
+  Rendered albums/new.html.erb within layouts/application (31.7ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:8
+Completed 200 OK in 58ms (Views: 56.0ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/bands/1/albums/new" for ::1 at 2022-03-15 16:17:24 -0400
+Processing by AlbumsController#new as HTML
+  Parameters: {"band_id"=>"1"}
+  Rendering albums/new.html.erb within layouts/application
+  [1m[36mBand Load (23.8ms)[0m  [1m[34mSELECT "bands".* FROM "bands"[0m
+  ↳ app/views/albums/new.html.erb:25
+  Rendered albums/new.html.erb within layouts/application (156.0ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:8
+Completed 200 OK in 191ms (Views: 165.9ms | ActiveRecord: 24.3ms)
+
+
+Started GET "/bands/1/albums/new" for ::1 at 2022-03-15 16:17:39 -0400
+Processing by AlbumsController#new as HTML
+  Parameters: {"band_id"=>"1"}
+  Rendering albums/new.html.erb within layouts/application
+  [1m[36mBand Load (0.5ms)[0m  [1m[34mSELECT "bands".* FROM "bands"[0m
+  ↳ app/views/albums/new.html.erb:25
+  Rendered albums/new.html.erb within layouts/application (55.3ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:8
+Completed 200 OK in 104ms (Views: 101.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/bands/1/albums/new" for ::1 at 2022-03-15 16:17:40 -0400
+Processing by AlbumsController#new as HTML
+  Parameters: {"band_id"=>"1"}
+  Rendering albums/new.html.erb within layouts/application
+  [1m[36mBand Load (0.5ms)[0m  [1m[34mSELECT "bands".* FROM "bands"[0m
+  ↳ app/views/albums/new.html.erb:25
+  Rendered albums/new.html.erb within layouts/application (36.3ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:8
+Completed 200 OK in 68ms (Views: 65.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/bands/1/albums/new" for ::1 at 2022-03-15 16:17:41 -0400
+Processing by AlbumsController#new as HTML
+  Parameters: {"band_id"=>"1"}
+  Rendering albums/new.html.erb within layouts/application
+  [1m[36mBand Load (0.4ms)[0m  [1m[34mSELECT "bands".* FROM "bands"[0m
+  ↳ app/views/albums/new.html.erb:25
+  Rendered albums/new.html.erb within layouts/application (32.2ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:8
+Completed 200 OK in 56ms (Views: 54.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/bands/1/albums/new" for ::1 at 2022-03-15 16:17:48 -0400
+Processing by AlbumsController#new as HTML
+  Parameters: {"band_id"=>"1"}
+  Rendering albums/new.html.erb within layouts/application
+  [1m[36mBand Load (29.6ms)[0m  [1m[34mSELECT "bands".* FROM "bands"[0m
+  ↳ app/views/albums/new.html.erb:25
+  Rendered albums/new.html.erb within layouts/application (67.2ms)
+  [1m[36mUser Load (1.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:8
+Completed 200 OK in 95ms (Views: 62.6ms | ActiveRecord: 31.5ms)
+
+
+Started GET "/bands/1/albums/new" for ::1 at 2022-03-15 16:17:50 -0400
+Processing by AlbumsController#new as HTML
+  Parameters: {"band_id"=>"1"}
+  Rendering albums/new.html.erb within layouts/application
+  [1m[36mBand Load (0.4ms)[0m  [1m[34mSELECT "bands".* FROM "bands"[0m
+  ↳ app/views/albums/new.html.erb:25
+  Rendered albums/new.html.erb within layouts/application (34.4ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:8
+Completed 200 OK in 62ms (Views: 60.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/bands/1/albums/new" for ::1 at 2022-03-15 16:18:14 -0400
+Processing by AlbumsController#new as HTML
+  Parameters: {"band_id"=>"1"}
+  Rendering albums/new.html.erb within layouts/application
+  [1m[36mBand Load (0.8ms)[0m  [1m[34mSELECT "bands".* FROM "bands"[0m
+  ↳ app/views/albums/new.html.erb:25
+  Rendered albums/new.html.erb within layouts/application (290.2ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:8
+Completed 200 OK in 413ms (Views: 411.4ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/bands/1/albums/new" for ::1 at 2022-03-15 16:18:17 -0400
+Processing by AlbumsController#new as HTML
+  Parameters: {"band_id"=>"1"}
+  Rendering albums/new.html.erb within layouts/application
+  [1m[36mBand Load (0.7ms)[0m  [1m[34mSELECT "bands".* FROM "bands"[0m
+  ↳ app/views/albums/new.html.erb:25
+  Rendered albums/new.html.erb within layouts/application (30.9ms)
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:8
+Completed 200 OK in 56ms (Views: 53.8ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/bands/1/albums/new" for ::1 at 2022-03-15 16:18:32 -0400
+Processing by AlbumsController#new as HTML
+  Parameters: {"band_id"=>"1"}
+  Rendering albums/new.html.erb within layouts/application
+  [1m[36mBand Load (45.4ms)[0m  [1m[34mSELECT "bands".* FROM "bands"[0m
+  ↳ app/views/albums/new.html.erb:25
+  Rendered albums/new.html.erb within layouts/application (118.3ms)
+  [1m[36mUser Load (28.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:8
+Completed 200 OK in 212ms (Views: 136.7ms | ActiveRecord: 73.9ms)
+
+
+Started GET "/bands/1/albums/new" for ::1 at 2022-03-15 16:18:40 -0400
+Processing by AlbumsController#new as HTML
+  Parameters: {"band_id"=>"1"}
+  Rendering albums/new.html.erb within layouts/application
+  [1m[36mBand Load (0.4ms)[0m  [1m[34mSELECT "bands".* FROM "bands"[0m
+  ↳ app/views/albums/new.html.erb:25
+  Rendered albums/new.html.erb within layouts/application (57.3ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:8
+Completed 200 OK in 87ms (Views: 85.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/bands/1/albums/new" for ::1 at 2022-03-15 16:18:42 -0400
+Processing by AlbumsController#new as HTML
+  Parameters: {"band_id"=>"1"}
+  Rendering albums/new.html.erb within layouts/application
+  [1m[36mBand Load (0.5ms)[0m  [1m[34mSELECT "bands".* FROM "bands"[0m
+  ↳ app/views/albums/new.html.erb:25
+  Rendered albums/new.html.erb within layouts/application (31.9ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:8
+Completed 200 OK in 61ms (Views: 58.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/bands/1/albums/new" for ::1 at 2022-03-15 16:18:48 -0400
+Processing by AlbumsController#new as HTML
+  Parameters: {"band_id"=>"1"}
+  Rendering albums/new.html.erb within layouts/application
+  [1m[36mBand Load (0.4ms)[0m  [1m[34mSELECT "bands".* FROM "bands"[0m
+  ↳ app/views/albums/new.html.erb:25
+  Rendered albums/new.html.erb within layouts/application (43.5ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:8
+Completed 200 OK in 79ms (Views: 77.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/albums" for ::1 at 2022-03-15 16:19:09 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/albums"):
+  
+actionpack (5.2.7) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.7) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.7) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.7) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.7) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.7) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.7) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.7) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.7) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started POST "/bands" for ::1 at 2022-03-15 16:19:31 -0400
+Processing by BandsController#create as HTML
+  Parameters: {"authenticity_token"=>"oTQ37xp+oOo6o+8Hk6yYKGfYXiP09owZGH4ybILM+RTqPiKrFUMHYtiUIwH14cVqSPyJQDLa7k12oyBFrsXgmQ==", "album"=>{"title"=>"asdfsadf", "year"=>"1333", "band_id"=>"2", "live"=>"false"}}
+Completed 400 Bad Request in 2ms (ActiveRecord: 0.0ms)
+
+
+
+ActionController::ParameterMissing - param is missing or the value is empty: band:
+  app/controllers/bands_controller.rb:47:in `band_params'
+  app/controllers/bands_controller.rb:8:in `create'
+
+Started POST "/__better_errors/c8c154ae5627afba/variables" for ::1 at 2022-03-15 16:19:31 -0400
+Started POST "/bands" for ::1 at 2022-03-15 16:20:17 -0400
+Processing by BandsController#create as HTML
+  Parameters: {"authenticity_token"=>"oTQ37xp+oOo6o+8Hk6yYKGfYXiP09owZGH4ybILM+RTqPiKrFUMHYtiUIwH14cVqSPyJQDLa7k12oyBFrsXgmQ==", "album"=>{"title"=>"asdfsadf", "year"=>"1333", "band_id"=>"2", "live"=>"false"}}
+Completed 400 Bad Request in 7ms (ActiveRecord: 0.0ms)
+
+
+
+ActionController::ParameterMissing - param is missing or the value is empty: band:
+  app/controllers/bands_controller.rb:47:in `band_params'
+  app/controllers/bands_controller.rb:8:in `create'
+
+Started POST "/__better_errors/27628d86c8ae979c/variables" for ::1 at 2022-03-15 16:20:17 -0400
+Started POST "/__better_errors/27628d86c8ae979c/variables" for ::1 at 2022-03-15 16:24:13 -0400
+Started POST "/bands" for ::1 at 2022-03-15 16:27:52 -0400
+Processing by BandsController#create as HTML
+  Parameters: {"authenticity_token"=>"oTQ37xp+oOo6o+8Hk6yYKGfYXiP09owZGH4ybILM+RTqPiKrFUMHYtiUIwH14cVqSPyJQDLa7k12oyBFrsXgmQ==", "album"=>{"title"=>"asdfsadf", "year"=>"1333", "band_id"=>"2", "live"=>"false"}}
+Completed 400 Bad Request in 6ms (ActiveRecord: 0.0ms)
+
+
+
+ActionController::ParameterMissing - param is missing or the value is empty: band:
+  app/controllers/bands_controller.rb:47:in `band_params'
+  app/controllers/bands_controller.rb:8:in `create'
+
+Started POST "/__better_errors/85e4a0b2e2f5f17e/variables" for ::1 at 2022-03-15 16:27:52 -0400
+Started POST "/bands" for ::1 at 2022-03-15 16:28:11 -0400
+  [1m[35m (42.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.7/lib/active_record/log_subscriber.rb:98
+Processing by BandsController#create as HTML
+  Parameters: {"authenticity_token"=>"oTQ37xp+oOo6o+8Hk6yYKGfYXiP09owZGH4ybILM+RTqPiKrFUMHYtiUIwH14cVqSPyJQDLa7k12oyBFrsXgmQ==", "album"=>{"title"=>"asdfsadf", "year"=>"1333", "band_id"=>"2", "live"=>"false"}}
+Completed 400 Bad Request in 12ms (ActiveRecord: 0.0ms)
+
+
+
+ActionController::ParameterMissing - param is missing or the value is empty: band:
+  app/controllers/bands_controller.rb:47:in `band_params'
+  app/controllers/bands_controller.rb:8:in `create'
+
+Started POST "/__better_errors/3bc6bf00d9801e5b/variables" for ::1 at 2022-03-15 16:28:11 -0400
+Started POST "/bands" for ::1 at 2022-03-15 16:30:07 -0400
+Processing by BandsController#create as HTML
+  Parameters: {"authenticity_token"=>"oTQ37xp+oOo6o+8Hk6yYKGfYXiP09owZGH4ybILM+RTqPiKrFUMHYtiUIwH14cVqSPyJQDLa7k12oyBFrsXgmQ==", "album"=>{"title"=>"asdfsadf", "year"=>"1333", "band_id"=>"2", "live"=>"false"}}
+Completed 400 Bad Request in 7ms (ActiveRecord: 0.0ms)
+
+
+
+ActionController::ParameterMissing - param is missing or the value is empty: band:
+  app/controllers/bands_controller.rb:47:in `band_params'
+  app/controllers/bands_controller.rb:8:in `create'
+
+Started POST "/__better_errors/89aba68923275522/variables" for ::1 at 2022-03-15 16:30:07 -0400
+Started POST "/bands" for ::1 at 2022-03-15 16:30:29 -0400
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.7/lib/active_record/log_subscriber.rb:98
+Processing by BandsController#create as HTML
+  Parameters: {"authenticity_token"=>"oTQ37xp+oOo6o+8Hk6yYKGfYXiP09owZGH4ybILM+RTqPiKrFUMHYtiUIwH14cVqSPyJQDLa7k12oyBFrsXgmQ==", "album"=>{"title"=>"asdfsadf", "year"=>"1333", "band_id"=>"2", "live"=>"false"}}
+Completed 400 Bad Request in 11ms (ActiveRecord: 0.0ms)
+
+
+
+ActionController::ParameterMissing - param is missing or the value is empty: band:
+  app/controllers/bands_controller.rb:47:in `band_params'
+  app/controllers/bands_controller.rb:8:in `create'
+
+Started POST "/__better_errors/5f3be1ed8193fe7b/variables" for ::1 at 2022-03-15 16:30:30 -0400
+Started POST "/bands" for ::1 at 2022-03-15 16:31:39 -0400
+Processing by BandsController#create as HTML
+  Parameters: {"authenticity_token"=>"oTQ37xp+oOo6o+8Hk6yYKGfYXiP09owZGH4ybILM+RTqPiKrFUMHYtiUIwH14cVqSPyJQDLa7k12oyBFrsXgmQ==", "album"=>{"title"=>"asdfsadf", "year"=>"1333", "band_id"=>"2", "live"=>"false"}}
+Completed 400 Bad Request in 5ms (ActiveRecord: 0.0ms)
+
+
+
+ActionController::ParameterMissing - param is missing or the value is empty: band:
+  app/controllers/bands_controller.rb:47:in `band_params'
+  app/controllers/bands_controller.rb:8:in `create'
+
+Started POST "/__better_errors/b656437244daffbe/variables" for ::1 at 2022-03-15 16:31:39 -0400
+Started POST "/__better_errors/b656437244daffbe/eval" for ::1 at 2022-03-15 16:31:48 -0400
+Started POST "/bands" for ::1 at 2022-03-15 16:32:57 -0400
+Processing by BandsController#create as HTML
+  Parameters: {"authenticity_token"=>"oTQ37xp+oOo6o+8Hk6yYKGfYXiP09owZGH4ybILM+RTqPiKrFUMHYtiUIwH14cVqSPyJQDLa7k12oyBFrsXgmQ==", "album"=>{"title"=>"asdfsadf", "year"=>"1333", "band_id"=>"2", "live"=>"false"}}
+Completed 400 Bad Request in 11ms (ActiveRecord: 0.0ms)
+
+
+
+ActionController::ParameterMissing - param is missing or the value is empty: band:
+  app/controllers/bands_controller.rb:47:in `band_params'
+  app/controllers/bands_controller.rb:8:in `create'
+
+Started POST "/__better_errors/a28746ea6c313bb7/variables" for ::1 at 2022-03-15 16:32:57 -0400
+Started POST "/bands" for ::1 at 2022-03-15 16:33:12 -0400
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.7/lib/active_record/log_subscriber.rb:98
+Processing by BandsController#create as HTML
+  Parameters: {"authenticity_token"=>"oTQ37xp+oOo6o+8Hk6yYKGfYXiP09owZGH4ybILM+RTqPiKrFUMHYtiUIwH14cVqSPyJQDLa7k12oyBFrsXgmQ==", "album"=>{"title"=>"asdfsadf", "year"=>"1333", "band_id"=>"2", "live"=>"false"}}
+Completed 400 Bad Request in 11ms (ActiveRecord: 0.0ms)
+
+
+
+ActionController::ParameterMissing - param is missing or the value is empty: band:
+  app/controllers/bands_controller.rb:47:in `band_params'
+  app/controllers/bands_controller.rb:8:in `create'
+
+Started POST "/__better_errors/60caab316e6c9816/variables" for ::1 at 2022-03-15 16:33:12 -0400
+Started POST "/bands" for ::1 at 2022-03-15 16:34:31 -0400
+Processing by BandsController#create as HTML
+  Parameters: {"authenticity_token"=>"oTQ37xp+oOo6o+8Hk6yYKGfYXiP09owZGH4ybILM+RTqPiKrFUMHYtiUIwH14cVqSPyJQDLa7k12oyBFrsXgmQ==", "album"=>{"title"=>"asdfsadf", "year"=>"1333", "band_id"=>"2", "live"=>"false"}}
+Completed 400 Bad Request in 4ms (ActiveRecord: 0.0ms)
+
+
+
+ActionController::ParameterMissing - param is missing or the value is empty: band:
+  app/controllers/bands_controller.rb:47:in `band_params'
+  app/controllers/bands_controller.rb:8:in `create'
+
+Started POST "/__better_errors/ca0b8860c6077b75/variables" for ::1 at 2022-03-15 16:34:32 -0400
+Started POST "/bands" for ::1 at 2022-03-15 16:35:15 -0400
+Processing by BandsController#create as HTML
+  Parameters: {"authenticity_token"=>"oTQ37xp+oOo6o+8Hk6yYKGfYXiP09owZGH4ybILM+RTqPiKrFUMHYtiUIwH14cVqSPyJQDLa7k12oyBFrsXgmQ==", "album"=>{"title"=>"asdfsadf", "year"=>"1333", "band_id"=>"2", "live"=>"false"}}
+Completed 400 Bad Request in 4ms (ActiveRecord: 0.0ms)
+
+
+
+ActionController::ParameterMissing - param is missing or the value is empty: band:
+  app/controllers/bands_controller.rb:47:in `band_params'
+  app/controllers/bands_controller.rb:8:in `create'
+
+Started POST "/__better_errors/2e8d3a38bc18884e/variables" for ::1 at 2022-03-15 16:35:15 -0400
+Started POST "/__better_errors/2e8d3a38bc18884e/variables" for ::1 at 2022-03-15 16:40:10 -0400
+Started GET "/bands/1/albums/new" for ::1 at 2022-03-15 16:40:24 -0400
+
+SyntaxError - syntax error, unexpected keyword_end, expecting end-of-input:
+  app/controllers/albums_controller.rb:50:in `'
+
+Started POST "/__better_errors/c75b2bf945ea0463/variables" for ::1 at 2022-03-15 16:40:25 -0400
+Started GET "/bands/1/albums/new" for ::1 at 2022-03-15 16:40:28 -0400
+
+SyntaxError - syntax error, unexpected keyword_end, expecting end-of-input:
+  app/controllers/albums_controller.rb:50:in `'
+
+Started POST "/__better_errors/f0280ee441afe706/variables" for ::1 at 2022-03-15 16:40:28 -0400
+Started GET "/bands/1/albums/new" for ::1 at 2022-03-15 16:40:41 -0400
+
+SyntaxError - syntax error, unexpected keyword_end, expecting end-of-input:
+  app/controllers/albums_controller.rb:50:in `'
+
+Started POST "/__better_errors/69be41b0a5d9b778/variables" for ::1 at 2022-03-15 16:40:42 -0400
+Started GET "/bands/1/albums/new" for ::1 at 2022-03-15 16:40:42 -0400
+
+SyntaxError - syntax error, unexpected keyword_end, expecting end-of-input:
+  app/controllers/albums_controller.rb:50:in `'
+
+Started POST "/__better_errors/ec292677960cda72/variables" for ::1 at 2022-03-15 16:40:42 -0400
+Started GET "/bands/1/albums/new" for ::1 at 2022-03-15 16:40:43 -0400
+
+SyntaxError - syntax error, unexpected keyword_end, expecting end-of-input:
+  app/controllers/albums_controller.rb:50:in `'
+
+Started POST "/__better_errors/d2208cdfd34ae79c/variables" for ::1 at 2022-03-15 16:40:43 -0400
+Started GET "/bands/1/albums/new" for ::1 at 2022-03-15 16:40:57 -0400
+Processing by AlbumsController#new as HTML
+  Parameters: {"band_id"=>"1"}
+  Rendering albums/new.html.erb within layouts/application
+  [1m[36mBand Load (0.9ms)[0m  [1m[34mSELECT "bands".* FROM "bands"[0m
+  ↳ app/views/albums/new.html.erb:25
+  Rendered albums/new.html.erb within layouts/application (521.8ms)
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:8
+Completed 200 OK in 627ms (Views: 570.5ms | ActiveRecord: 34.0ms)
+
+
+Started GET "/bands/1/albums/new" for ::1 at 2022-03-15 16:41:00 -0400
+Processing by AlbumsController#new as HTML
+  Parameters: {"band_id"=>"1"}
+  Rendering albums/new.html.erb within layouts/application
+  [1m[36mBand Load (0.8ms)[0m  [1m[34mSELECT "bands".* FROM "bands"[0m
+  ↳ app/views/albums/new.html.erb:25
+  Rendered albums/new.html.erb within layouts/application (52.3ms)
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:8
+Completed 200 OK in 80ms (Views: 77.6ms | ActiveRecord: 1.4ms)
+
+
+Started POST "/bands" for ::1 at 2022-03-15 16:41:11 -0400
+Processing by BandsController#create as HTML
+  Parameters: {"authenticity_token"=>"ZT4hDgYCNXi+XNvLeVmkA9gpE9okbPpuIzoRKcNT8BouNDRKCT+S8FxrF80fFPlB9w3EueJAmDpN5wMA71rplw==", "album"=>{"title"=>"gligil", "year"=>"234567", "band_id"=>"2", "live"=>"true"}}
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms)
+
+
+
+ActionController::ParameterMissing - param is missing or the value is empty: band:
+  app/controllers/bands_controller.rb:47:in `band_params'
+  app/controllers/bands_controller.rb:8:in `create'
+
+Started POST "/__better_errors/262b39fa01473ca0/variables" for ::1 at 2022-03-15 16:41:12 -0400
+Started GET "/bands/1/albums/new" for ::1 at 2022-03-15 16:42:07 -0400
+Processing by AlbumsController#new as HTML
+  Parameters: {"band_id"=>"1"}
+  Rendering albums/new.html.erb within layouts/application
+  [1m[36mBand Load (0.5ms)[0m  [1m[34mSELECT "bands".* FROM "bands"[0m
+  ↳ app/views/albums/new.html.erb:25
+  Rendered albums/new.html.erb within layouts/application (63.2ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:8
+Completed 200 OK in 129ms (Views: 84.2ms | ActiveRecord: 28.7ms)
+
+
+Started POST "/bands" for ::1 at 2022-03-15 16:42:15 -0400
+Processing by BandsController#create as HTML
+  Parameters: {"authenticity_token"=>"+gj8Q+T5dMV/KJkLVTeMOVgXCjR7/sOuTZKDTS9+E1WxAukH68TTTZ0fVQ0zetF7dzPdV73SofojT5FkA3cK2A==", "album"=>{"title"=>"asdfasf", "year"=>"234543", "band_id"=>"2", "live"=>"false"}}
+Completed 400 Bad Request in 4ms (ActiveRecord: 0.0ms)
+
+
+
+ActionController::ParameterMissing - param is missing or the value is empty: band:
+  app/controllers/bands_controller.rb:47:in `band_params'
+  app/controllers/bands_controller.rb:8:in `create'
+
+Started POST "/__better_errors/4b09f26222fdd1bc/variables" for ::1 at 2022-03-15 16:42:15 -0400
+Started POST "/bands" for ::1 at 2022-03-15 16:45:57 -0400
+Processing by BandsController#create as HTML
+  Parameters: {"authenticity_token"=>"+gj8Q+T5dMV/KJkLVTeMOVgXCjR7/sOuTZKDTS9+E1WxAukH68TTTZ0fVQ0zetF7dzPdV73SofojT5FkA3cK2A==", "album"=>{"title"=>"asdfasf", "year"=>"234543", "band_id"=>"2", "live"=>"false"}}
+Completed 400 Bad Request in 4ms (ActiveRecord: 0.0ms)
+
+
+
+ActionController::ParameterMissing - param is missing or the value is empty: band:
+  app/controllers/bands_controller.rb:47:in `band_params'
+  app/controllers/bands_controller.rb:8:in `create'
+
+Started POST "/__better_errors/82bc839c142d33f0/variables" for ::1 at 2022-03-15 16:45:57 -0400
+Started GET "/bands/1/albums/new" for ::1 at 2022-03-15 16:47:10 -0400
+Processing by AlbumsController#new as HTML
+  Parameters: {"band_id"=>"1"}
+  Rendering albums/new.html.erb within layouts/application
+  [1m[36mBand Load (0.5ms)[0m  [1m[34mSELECT "bands".* FROM "bands"[0m
+  ↳ app/views/albums/new.html.erb:25
+  Rendered albums/new.html.erb within layouts/application (59.3ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:8
+Completed 200 OK in 126ms (Views: 81.1ms | ActiveRecord: 28.7ms)
+
+
+Started POST "/albums" for ::1 at 2022-03-15 16:47:34 -0400
+Processing by AlbumsController#create as HTML
+  Parameters: {"authenticity_token"=>"T24U8Rbr//3hoE253zbVf5wpG1CJOWuGYYBGIgBXJrIEZAG1GdZYdQOXgb+5e4g9sw3MM08VCdIPXVQLLF4/Pw==", "album"=>{"title"=>"asdffd", "year"=>"12345", "band_id"=>"2", "live"=>"false"}}
+  [1m[35m (13.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/albums_controller.rb:14
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/albums_controller.rb:14
+Redirected to 
+Completed 500 Internal Server Error in 317ms (ActiveRecord: 13.4ms)
+
+
+
+NoMethodError - undefined method `new_url' for #<AlbumsController:0x00007fde3d8a4bc0>
+Did you mean?  new_band_url:
+  app/controllers/albums_controller.rb:17:in `create'
+
+Started POST "/__better_errors/f03c999674515e0a/variables" for ::1 at 2022-03-15 16:47:35 -0400
+Started POST "/albums" for ::1 at 2022-03-15 16:48:00 -0400
+Processing by AlbumsController#create as HTML
+  Parameters: {"authenticity_token"=>"T24U8Rbr//3hoE253zbVf5wpG1CJOWuGYYBGIgBXJrIEZAG1GdZYdQOXgb+5e4g9sw3MM08VCdIPXVQLLF4/Pw==", "album"=>{"title"=>"asdffd", "year"=>"12345", "band_id"=>"2", "live"=>"false"}}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/albums_controller.rb:14
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/albums_controller.rb:14
+Completed 422 Unprocessable Entity in 39ms (ActiveRecord: 9.5ms)
+
+
+
+ActiveRecord::RecordInvalid - Validation failed: Live can't be blank:
+  app/controllers/albums_controller.rb:14:in `create'
+
+Started POST "/__better_errors/4b1ad674db9b0d46/variables" for ::1 at 2022-03-15 16:48:00 -0400
+Started POST "/__better_errors/4b1ad674db9b0d46/variables" for ::1 at 2022-03-15 16:48:13 -0400
+Started POST "/albums" for ::1 at 2022-03-15 16:48:22 -0400
+Processing by AlbumsController#create as HTML
+  Parameters: {"authenticity_token"=>"T24U8Rbr//3hoE253zbVf5wpG1CJOWuGYYBGIgBXJrIEZAG1GdZYdQOXgb+5e4g9sw3MM08VCdIPXVQLLF4/Pw==", "album"=>{"title"=>"asdffd", "year"=>"12345", "band_id"=>"2", "live"=>"false"}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/albums_controller.rb:14
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/albums_controller.rb:14
+Completed 422 Unprocessable Entity in 43ms (ActiveRecord: 12.4ms)
+
+
+
+ActiveRecord::RecordInvalid - Validation failed: Live can't be blank:
+  app/controllers/albums_controller.rb:14:in `create'
+
+Started POST "/__better_errors/d8b6cdd74d4b6092/variables" for ::1 at 2022-03-15 16:48:22 -0400
+Started POST "/albums" for ::1 at 2022-03-15 16:48:26 -0400
+Processing by AlbumsController#create as HTML
+  Parameters: {"authenticity_token"=>"T24U8Rbr//3hoE253zbVf5wpG1CJOWuGYYBGIgBXJrIEZAG1GdZYdQOXgb+5e4g9sw3MM08VCdIPXVQLLF4/Pw==", "album"=>{"title"=>"asdffd", "year"=>"12345", "band_id"=>"2", "live"=>"true"}}
+  [1m[35m (4.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/albums_controller.rb:14
+  [1m[36mAlbum Create (48.5ms)[0m  [1m[32mINSERT INTO "albums" ("title", "year", "band_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "asdffd"], ["year", 12345], ["band_id", 2], ["created_at", "2022-03-15 20:48:26.561811"], ["updated_at", "2022-03-15 20:48:26.561811"]]
+  ↳ app/controllers/albums_controller.rb:14
+  [1m[35m (3.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/albums_controller.rb:14
+Redirected to http://localhost:3000/albums
+Completed 302 Found in 66ms (ActiveRecord: 56.0ms)
+
+
+Started GET "/albums" for ::1 at 2022-03-15 16:48:26 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/albums"):
+  
+actionpack (5.2.7) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.7) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.7) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.7) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.7) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.7) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.7) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.7) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.7) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started POST "/albums" for ::1 at 2022-03-15 16:48:51 -0400
+Processing by AlbumsController#create as HTML
+  Parameters: {"authenticity_token"=>"T24U8Rbr//3hoE253zbVf5wpG1CJOWuGYYBGIgBXJrIEZAG1GdZYdQOXgb+5e4g9sw3MM08VCdIPXVQLLF4/Pw==", "album"=>{"title"=>"asdffd", "year"=>"12345", "band_id"=>"2", "live"=>"true"}}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/albums_controller.rb:14
+  [1m[36mAlbum Create (0.6ms)[0m  [1m[32mINSERT INTO "albums" ("title", "year", "band_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "asdffd"], ["year", 12345], ["band_id", 2], ["created_at", "2022-03-15 20:48:51.660642"], ["updated_at", "2022-03-15 20:48:51.660642"]]
+  ↳ app/controllers/albums_controller.rb:14
+  [1m[35m (4.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/albums_controller.rb:14
+Redirected to http://localhost:3000/albums/2
+Completed 302 Found in 49ms (ActiveRecord: 12.1ms)
+
+
+Started GET "/albums/2" for ::1 at 2022-03-15 16:48:51 -0400
+Processing by AlbumsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mAlbum Load (0.6ms)[0m  [1m[34mSELECT  "albums".* FROM "albums" WHERE "albums"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/albums_controller.rb:28
+  Rendering albums/show.html.erb within layouts/application
+  Rendered albums/show.html.erb within layouts/application (43.8ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:8
+Completed 200 OK in 106ms (Views: 89.3ms | ActiveRecord: 3.5ms)
+
+
+Started POST "/albums" for ::1 at 2022-03-15 16:48:56 -0400
+Processing by AlbumsController#create as HTML
+  Parameters: {"authenticity_token"=>"T24U8Rbr//3hoE253zbVf5wpG1CJOWuGYYBGIgBXJrIEZAG1GdZYdQOXgb+5e4g9sw3MM08VCdIPXVQLLF4/Pw==", "album"=>{"title"=>"asdffd", "year"=>"12345", "band_id"=>"2", "live"=>"false"}}
+  [1m[35m (6.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/albums_controller.rb:14
+  [1m[35m (4.8ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/albums_controller.rb:14
+Completed 422 Unprocessable Entity in 18ms (ActiveRecord: 10.7ms)
+
+
+
+ActiveRecord::RecordInvalid - Validation failed: Live can't be blank:
+  app/controllers/albums_controller.rb:14:in `create'
+
+Started POST "/__better_errors/7372f0a6c845144f/variables" for ::1 at 2022-03-15 16:48:56 -0400
+Started POST "/__better_errors/7372f0a6c845144f/eval" for ::1 at 2022-03-15 16:49:06 -0400
+Started POST "/albums" for ::1 at 2022-03-15 16:51:27 -0400
+Processing by AlbumsController#create as HTML
+  Parameters: {"authenticity_token"=>"T24U8Rbr//3hoE253zbVf5wpG1CJOWuGYYBGIgBXJrIEZAG1GdZYdQOXgb+5e4g9sw3MM08VCdIPXVQLLF4/Pw==", "album"=>{"title"=>"asdffd", "year"=>"12345", "band_id"=>"2", "live"=>"false"}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/albums_controller.rb:10
+  [1m[35m (1.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/albums_controller.rb:10
+Redirected to 
+Completed 500 Internal Server Error in 290ms (ActiveRecord: 12.3ms)
+
+
+
+NoMethodError - undefined method `new_url' for #<AlbumsController:0x00007fde35bceab0>
+Did you mean?  new_band_url:
+  app/controllers/albums_controller.rb:13:in `create'
+
+Started POST "/__better_errors/35959af8dc20b221/variables" for ::1 at 2022-03-15 16:51:28 -0400
+Started POST "/albums" for ::1 at 2022-03-15 16:51:49 -0400
+Processing by AlbumsController#create as HTML
+  Parameters: {"authenticity_token"=>"T24U8Rbr//3hoE253zbVf5wpG1CJOWuGYYBGIgBXJrIEZAG1GdZYdQOXgb+5e4g9sw3MM08VCdIPXVQLLF4/Pw==", "album"=>{"title"=>"asdffd", "year"=>"12345", "band_id"=>"2", "live"=>"false"}}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/albums_controller.rb:10
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/albums_controller.rb:10
+Completed 422 Unprocessable Entity in 31ms (ActiveRecord: 13.9ms)
+
+
+
+ActiveRecord::RecordInvalid - Validation failed: Live can't be blank:
+  app/controllers/albums_controller.rb:10:in `create'
+
+Started POST "/__better_errors/38b6fe14162e8598/variables" for ::1 at 2022-03-15 16:51:50 -0400
+Started GET "/bands/1/albums/new" for ::1 at 2022-03-15 16:52:13 -0400
+Processing by AlbumsController#new as HTML
+  Parameters: {"band_id"=>"1"}
+  Rendering albums/new.html.erb within layouts/application
+  [1m[36mBand Load (0.5ms)[0m  [1m[34mSELECT "bands".* FROM "bands"[0m
+  ↳ app/views/albums/new.html.erb:25
+  Rendered albums/new.html.erb within layouts/application (68.3ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:8
+Completed 200 OK in 155ms (Views: 89.1ms | ActiveRecord: 13.5ms)
+
+
+Started POST "/albums" for ::1 at 2022-03-15 16:52:22 -0400
+Processing by AlbumsController#create as HTML
+  Parameters: {"authenticity_token"=>"oWJ77A0T9SiHcv8bXD0t5zo4GV3b5Ra3HKjbzNqIU/3qaG6oAi5SoGVFMx06cHClFRzOPh3JdONydcnl9oFKcA==", "album"=>{"title"=>"asdfadsf", "year"=>"2344", "band_id"=>"1", "live"=>"false"}}
+  [1m[35m (3.9ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/albums_controller.rb:10
+  [1m[35m (7.9ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/albums_controller.rb:10
+Completed 422 Unprocessable Entity in 20ms (ActiveRecord: 11.8ms)
+
+
+
+ActiveRecord::RecordInvalid - Validation failed: Live can't be blank:
+  app/controllers/albums_controller.rb:10:in `create'
+
+Started POST "/__better_errors/7a081e62b360677d/variables" for ::1 at 2022-03-15 16:52:22 -0400
+Started GET "/bands" for ::1 at 2022-03-15 16:55:01 -0400
+Processing by BandsController#index as HTML
+  Rendering bands/index.html.erb within layouts/application
+  [1m[36mBand Load (0.5ms)[0m  [1m[34mSELECT "bands".* FROM "bands"[0m
+  ↳ app/views/bands/index.html.erb:13
+  Rendered bands/index.html.erb within layouts/application (51.8ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:8
+Completed 200 OK in 93ms (Views: 90.9ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/bands" for ::1 at 2022-03-15 16:55:59 -0400
+Processing by BandsController#index as HTML
+  Rendering bands/index.html.erb within layouts/application
+  [1m[36mBand Load (0.6ms)[0m  [1m[34mSELECT "bands".* FROM "bands"[0m
+  ↳ app/views/bands/index.html.erb:13
+  Rendered bands/index.html.erb within layouts/application (59.1ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:8
+Completed 200 OK in 139ms (Views: 136.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/bands" for ::1 at 2022-03-15 16:56:22 -0400
+Processing by BandsController#index as HTML
+  Rendering bands/index.html.erb within layouts/application
+  [1m[36mBand Load (0.5ms)[0m  [1m[34mSELECT "bands".* FROM "bands"[0m
+  ↳ app/views/bands/index.html.erb:13
+  Rendered bands/index.html.erb within layouts/application (44.4ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:8
+Completed 200 OK in 78ms (Views: 74.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/band/1/album/new" for ::1 at 2022-03-15 16:56:44 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/band/1/album/new"):
+  
+actionpack (5.2.7) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.7) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.7) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.7) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.7) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.7) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.7) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.7) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.7) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/band/1/albums/new" for ::1 at 2022-03-15 16:56:50 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/band/1/albums/new"):
+  
+actionpack (5.2.7) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.7) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.7) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.7) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.7) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.7) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.7) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.7) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.7) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/bands/1/albums/new" for ::1 at 2022-03-15 16:56:57 -0400
+Processing by AlbumsController#new as HTML
+  Parameters: {"band_id"=>"1"}
+  Rendering albums/new.html.erb within layouts/application
+  [1m[36mBand Load (0.6ms)[0m  [1m[34mSELECT "bands".* FROM "bands"[0m
+  ↳ app/views/albums/new.html.erb:25
+  Rendered albums/new.html.erb within layouts/application (50.7ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:8
+Completed 200 OK in 95ms (Views: 92.5ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/albums" for ::1 at 2022-03-15 16:57:08 -0400
+Processing by AlbumsController#create as HTML
+  Parameters: {"authenticity_token"=>"dM3zRV/zaMVawDZMwSJQn0Vc1haP/C5hAYG/gHsV8rc/x+YBUM7PTbj3+kqnbw3dangBdUnQTDVvXK2pVxzrOg==", "album"=>{"title"=>"hxdfjchgvb", "year"=>"6875", "band_id"=>"2", "live"=>"true"}}
+  [1m[35m (3.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/albums_controller.rb:10
+  [1m[36mAlbum Create (6.1ms)[0m  [1m[32mINSERT INTO "albums" ("title", "year", "band_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "hxdfjchgvb"], ["year", 6875], ["band_id", 2], ["created_at", "2022-03-15 20:57:08.552845"], ["updated_at", "2022-03-15 20:57:08.552845"]]
+  ↳ app/controllers/albums_controller.rb:10
+  [1m[35m (5.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/albums_controller.rb:10
+Redirected to http://localhost:3000/albums/3
+Completed 302 Found in 22ms (ActiveRecord: 14.8ms)
+
+
+Started GET "/albums/3" for ::1 at 2022-03-15 16:57:08 -0400
+Processing by AlbumsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mAlbum Load (1.6ms)[0m  [1m[34mSELECT  "albums".* FROM "albums" WHERE "albums"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/albums_controller.rb:24
+  Rendering albums/show.html.erb within layouts/application
+  Rendered albums/show.html.erb within layouts/application (36.8ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:8
+Completed 200 OK in 79ms (Views: 73.7ms | ActiveRecord: 2.0ms)
+
+
+Started POST "/albums" for ::1 at 2022-03-15 16:57:19 -0400
+Processing by AlbumsController#create as HTML
+  Parameters: {"authenticity_token"=>"dM3zRV/zaMVawDZMwSJQn0Vc1haP/C5hAYG/gHsV8rc/x+YBUM7PTbj3+kqnbw3dangBdUnQTDVvXK2pVxzrOg==", "album"=>{"title"=>"hxdfjchgvb", "year"=>"6875", "band_id"=>"2", "live"=>"false"}}
+  [1m[35m (4.7ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/albums_controller.rb:10
+  [1m[35m (6.5ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/albums_controller.rb:10
+Completed 422 Unprocessable Entity in 18ms (ActiveRecord: 11.2ms)
+
+
+
+ActiveRecord::RecordInvalid - Validation failed: Live can't be blank:
+  app/controllers/albums_controller.rb:10:in `create'
+
+Started POST "/__better_errors/e1cdf46450b03817/variables" for ::1 at 2022-03-15 16:57:20 -0400
+Started POST "/albums" for ::1 at 2022-03-15 17:02:41 -0400
+Processing by AlbumsController#create as HTML
+  Parameters: {"authenticity_token"=>"dM3zRV/zaMVawDZMwSJQn0Vc1haP/C5hAYG/gHsV8rc/x+YBUM7PTbj3+kqnbw3dangBdUnQTDVvXK2pVxzrOg==", "album"=>{"title"=>"hxdfjchgvb", "year"=>"6875", "band_id"=>"2", "live"=>"false"}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/albums_controller.rb:10
+  [1m[35m (2.0ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/albums_controller.rb:10
+Completed 422 Unprocessable Entity in 27ms (ActiveRecord: 9.4ms)
+
+
+
+ActiveRecord::RecordInvalid - Validation failed: Live can't be blank:
+  app/controllers/albums_controller.rb:10:in `create'
+
+Started POST "/__better_errors/5c9bd714e483ebfd/variables" for ::1 at 2022-03-15 17:02:41 -0400
+Started GET "/bands/1/albums/new" for ::1 at 2022-03-15 17:02:56 -0400
+  [1m[35m (1.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.7/lib/active_record/log_subscriber.rb:98
+Processing by AlbumsController#new as HTML
+  Parameters: {"band_id"=>"1"}
+  Rendering albums/new.html.erb within layouts/application
+  [1m[36mBand Load (1.8ms)[0m  [1m[34mSELECT "bands".* FROM "bands"[0m
+  ↳ app/views/albums/new.html.erb:25
+  Rendered albums/new.html.erb within layouts/application (407.0ms)
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:8
+Completed 200 OK in 555ms (Views: 484.4ms | ActiveRecord: 35.0ms)
+
+
+Started POST "/albums" for ::1 at 2022-03-15 17:03:02 -0400
+Processing by AlbumsController#create as HTML
+  Parameters: {"authenticity_token"=>"eitigXk3Z6EEIXPnKl5AOqW69z4EUfs9M/Tq4WtMGIgxIXfFdgrAKeYWv+FMEx14ip4gXcJ9mWldKfjIR0UBBQ==", "album"=>{"title"=>"asga", "year"=>"21324", "band_id"=>"1", "live"=>"false"}}
+  [1m[35m (7.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/albums_controller.rb:10
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/albums_controller.rb:10
+Completed 422 Unprocessable Entity in 25ms (ActiveRecord: 7.9ms)
+
+
+
+ActiveRecord::RecordInvalid - Validation failed: Live can't be blank:
+  app/controllers/albums_controller.rb:10:in `create'
+
+Started POST "/__better_errors/6d43df62de2187dd/variables" for ::1 at 2022-03-15 17:03:02 -0400
+Started POST "/albums" for ::1 at 2022-03-15 17:04:00 -0400
+Processing by AlbumsController#create as HTML
+  Parameters: {"authenticity_token"=>"eitigXk3Z6EEIXPnKl5AOqW69z4EUfs9M/Tq4WtMGIgxIXfFdgrAKeYWv+FMEx14ip4gXcJ9mWldKfjIR0UBBQ==", "album"=>{"title"=>"asga", "year"=>"21324", "band_id"=>"1", "live"=>"false"}}
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/albums_controller.rb:10
+  [1m[35m (9.9ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/albums_controller.rb:10
+Completed 422 Unprocessable Entity in 18ms (ActiveRecord: 10.4ms)
+
+
+
+ActiveRecord::RecordInvalid - Validation failed: Live can't be blank:
+  app/controllers/albums_controller.rb:10:in `create'
+
+Started POST "/__better_errors/fc63ada3bd35a283/variables" for ::1 at 2022-03-15 17:04:00 -0400
+Started POST "/albums" for ::1 at 2022-03-15 17:08:03 -0400
+Processing by AlbumsController#create as HTML
+  Parameters: {"authenticity_token"=>"eitigXk3Z6EEIXPnKl5AOqW69z4EUfs9M/Tq4WtMGIgxIXfFdgrAKeYWv+FMEx14ip4gXcJ9mWldKfjIR0UBBQ==", "album"=>{"title"=>"asga", "year"=>"21324", "band_id"=>"1", "live"=>"false"}}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/albums_controller.rb:10
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/albums_controller.rb:10
+Completed 422 Unprocessable Entity in 41ms (ActiveRecord: 6.7ms)
+
+
+
+ActiveRecord::RecordInvalid - Validation failed: Live can't be blank:
+  app/controllers/albums_controller.rb:10:in `create'
+
+Started POST "/__better_errors/3984ea3577a84a97/variables" for ::1 at 2022-03-15 17:08:03 -0400
+Started POST "/albums" for ::1 at 2022-03-15 17:11:36 -0400
+Processing by AlbumsController#create as HTML
+  Parameters: {"authenticity_token"=>"eitigXk3Z6EEIXPnKl5AOqW69z4EUfs9M/Tq4WtMGIgxIXfFdgrAKeYWv+FMEx14ip4gXcJ9mWldKfjIR0UBBQ==", "album"=>{"title"=>"asga", "year"=>"21324", "band_id"=>"1", "live"=>"false"}}
+  [1m[35m (5.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/albums_controller.rb:10
+  [1m[35m (1.7ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/albums_controller.rb:10
+Completed 422 Unprocessable Entity in 15ms (ActiveRecord: 7.1ms)
+
+
+
+ActiveRecord::RecordInvalid - Validation failed: Live can't be blank:
+  app/controllers/albums_controller.rb:10:in `create'
+
+Started POST "/__better_errors/604db3387846fa29/variables" for ::1 at 2022-03-15 17:11:36 -0400
+Started POST "/albums" for ::1 at 2022-03-15 17:12:09 -0400
+Processing by AlbumsController#create as HTML
+  Parameters: {"authenticity_token"=>"eitigXk3Z6EEIXPnKl5AOqW69z4EUfs9M/Tq4WtMGIgxIXfFdgrAKeYWv+FMEx14ip4gXcJ9mWldKfjIR0UBBQ==", "album"=>{"title"=>"asga", "year"=>"21324", "band_id"=>"1", "live"=>"false"}}
+  [1m[35m (4.8ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/albums_controller.rb:10
+  [1m[35m (6.3ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/albums_controller.rb:10
+Completed 422 Unprocessable Entity in 18ms (ActiveRecord: 11.1ms)
+
+
+
+ActiveRecord::RecordInvalid - Validation failed: Live can't be blank:
+  app/controllers/albums_controller.rb:10:in `create'
+
+Started POST "/__better_errors/9a4d2ef7cddc6067/variables" for ::1 at 2022-03-15 17:12:09 -0400
+Started POST "/albums" for ::1 at 2022-03-15 17:12:30 -0400
+Processing by AlbumsController#create as HTML
+  Parameters: {"authenticity_token"=>"eitigXk3Z6EEIXPnKl5AOqW69z4EUfs9M/Tq4WtMGIgxIXfFdgrAKeYWv+FMEx14ip4gXcJ9mWldKfjIR0UBBQ==", "album"=>{"title"=>"asga", "year"=>"21324", "band_id"=>"1", "live"=>"false"}}
+  [1m[35m (8.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/albums_controller.rb:10
+  [1m[35m (2.4ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/albums_controller.rb:10
+Completed 422 Unprocessable Entity in 17ms (ActiveRecord: 10.8ms)
+
+
+
+ActiveRecord::RecordInvalid - Validation failed: Live can't be blank:
+  app/controllers/albums_controller.rb:10:in `create'
+
+Started POST "/__better_errors/40e44f2de5ef4ab7/variables" for ::1 at 2022-03-15 17:12:30 -0400
+Started POST "/albums" for ::1 at 2022-03-15 17:15:17 -0400
+Processing by AlbumsController#create as HTML
+  Parameters: {"authenticity_token"=>"eitigXk3Z6EEIXPnKl5AOqW69z4EUfs9M/Tq4WtMGIgxIXfFdgrAKeYWv+FMEx14ip4gXcJ9mWldKfjIR0UBBQ==", "album"=>{"title"=>"asga", "year"=>"21324", "band_id"=>"1", "live"=>"false"}}
+  [1m[35m (1.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/albums_controller.rb:10
+  [1m[35m (2.0ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/albums_controller.rb:10
+Completed 422 Unprocessable Entity in 9ms (ActiveRecord: 3.5ms)
+
+
+
+ActiveRecord::RecordInvalid - Validation failed: Live can't be blank:
+  app/controllers/albums_controller.rb:10:in `create'
+
+Started POST "/__better_errors/caed579959ecc185/variables" for ::1 at 2022-03-15 17:15:17 -0400
+Started POST "/albums" for ::1 at 2022-03-15 17:15:25 -0400
+Processing by AlbumsController#create as HTML
+  Parameters: {"authenticity_token"=>"eitigXk3Z6EEIXPnKl5AOqW69z4EUfs9M/Tq4WtMGIgxIXfFdgrAKeYWv+FMEx14ip4gXcJ9mWldKfjIR0UBBQ==", "album"=>{"title"=>"asga", "year"=>"21324", "band_id"=>"1", "live"=>"true"}}
+  [1m[35m (2.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/albums_controller.rb:10
+  [1m[36mAlbum Create (19.6ms)[0m  [1m[32mINSERT INTO "albums" ("title", "year", "band_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "asga"], ["year", 21324], ["band_id", 1], ["created_at", "2022-03-15 21:15:25.518647"], ["updated_at", "2022-03-15 21:15:25.518647"]]
+  ↳ app/controllers/albums_controller.rb:10
+  [1m[35m (22.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/albums_controller.rb:10
+Redirected to http://localhost:3000/albums/4
+Completed 302 Found in 52ms (ActiveRecord: 44.3ms)
+
+
+Started GET "/albums/4" for ::1 at 2022-03-15 17:15:25 -0400
+Processing by AlbumsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mAlbum Load (0.9ms)[0m  [1m[34mSELECT  "albums".* FROM "albums" WHERE "albums"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/albums_controller.rb:24
+  Rendering albums/show.html.erb within layouts/application
+  Rendered albums/show.html.erb within layouts/application (25.7ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:8
+Completed 200 OK in 85ms (Views: 78.8ms | ActiveRecord: 3.2ms)
+
+
+Started POST "/albums" for ::1 at 2022-03-15 17:15:29 -0400
+Processing by AlbumsController#create as HTML
+  Parameters: {"authenticity_token"=>"eitigXk3Z6EEIXPnKl5AOqW69z4EUfs9M/Tq4WtMGIgxIXfFdgrAKeYWv+FMEx14ip4gXcJ9mWldKfjIR0UBBQ==", "album"=>{"title"=>"asga", "year"=>"21324", "band_id"=>"1", "live"=>"false"}}
+  [1m[35m (2.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/albums_controller.rb:10
+  [1m[35m (0.6ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/albums_controller.rb:10
+Completed 422 Unprocessable Entity in 9ms (ActiveRecord: 2.8ms)
+
+
+
+ActiveRecord::RecordInvalid - Validation failed: Live can't be blank:
+  app/controllers/albums_controller.rb:10:in `create'
+
+Started POST "/__better_errors/b9e3c0ddb5e07706/variables" for ::1 at 2022-03-15 17:15:29 -0400
+Started POST "/albums" for ::1 at 2022-03-15 17:16:17 -0400
+Processing by AlbumsController#create as HTML
+  Parameters: {"authenticity_token"=>"eitigXk3Z6EEIXPnKl5AOqW69z4EUfs9M/Tq4WtMGIgxIXfFdgrAKeYWv+FMEx14ip4gXcJ9mWldKfjIR0UBBQ==", "album"=>{"title"=>"asga", "year"=>"21324", "band_id"=>"1", "live"=>"false"}}
+  [1m[35m (1.7ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/albums_controller.rb:10
+  [1m[35m (2.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/albums_controller.rb:10
+Completed 422 Unprocessable Entity in 11ms (ActiveRecord: 3.7ms)
+
+
+
+ActiveRecord::RecordInvalid - Validation failed: Live can't be blank:
+  app/controllers/albums_controller.rb:10:in `create'
+
+Started POST "/__better_errors/14d93cd06f96a222/variables" for ::1 at 2022-03-15 17:16:17 -0400
+Started POST "/__better_errors/14d93cd06f96a222/eval" for ::1 at 2022-03-15 17:16:23 -0400
+Started POST "/__better_errors/14d93cd06f96a222/eval" for ::1 at 2022-03-15 17:16:39 -0400
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/albums_controller.rb:10
+  [1m[35m (0.7ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/albums_controller.rb:10
+Started POST "/__better_errors/14d93cd06f96a222/eval" for ::1 at 2022-03-15 17:16:43 -0400
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/albums_controller.rb:10
+  [1m[35m (0.6ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/albums_controller.rb:10
+Started POST "/albums" for ::1 at 2022-03-15 17:24:47 -0400
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.7/lib/active_record/log_subscriber.rb:98
+Processing by AlbumsController#create as HTML
+  Parameters: {"authenticity_token"=>"eitigXk3Z6EEIXPnKl5AOqW69z4EUfs9M/Tq4WtMGIgxIXfFdgrAKeYWv+FMEx14ip4gXcJ9mWldKfjIR0UBBQ==", "album"=>{"title"=>"asga", "year"=>"21324", "band_id"=>"1", "live"=>"false"}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/albums_controller.rb:10
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/albums_controller.rb:10
+Completed 422 Unprocessable Entity in 29ms (ActiveRecord: 12.1ms)
+
+
+
+ActiveRecord::RecordInvalid - Validation failed: Live can't be blank:
+  app/controllers/albums_controller.rb:10:in `create'
+
+Started POST "/__better_errors/1a6065552e247c63/variables" for ::1 at 2022-03-15 17:24:48 -0400
+Started POST "/albums" for ::1 at 2022-03-15 17:25:06 -0400
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.7/lib/active_record/log_subscriber.rb:98
+Processing by AlbumsController#create as HTML
+  Parameters: {"authenticity_token"=>"eitigXk3Z6EEIXPnKl5AOqW69z4EUfs9M/Tq4WtMGIgxIXfFdgrAKeYWv+FMEx14ip4gXcJ9mWldKfjIR0UBBQ==", "album"=>{"title"=>"asga", "year"=>"21324", "band_id"=>"1", "live"=>"false"}}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/albums_controller.rb:10
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/albums_controller.rb:10
+Completed 422 Unprocessable Entity in 40ms (ActiveRecord: 9.7ms)
+
+
+
+ActiveRecord::RecordInvalid - Validation failed: Live can't be blank:
+  app/controllers/albums_controller.rb:10:in `create'
+
+Started POST "/__better_errors/8a8b29b4a3c533d0/variables" for ::1 at 2022-03-15 17:25:07 -0400
+Started POST "/albums" for ::1 at 2022-03-15 17:25:52 -0400
+Processing by AlbumsController#create as HTML
+  Parameters: {"authenticity_token"=>"eitigXk3Z6EEIXPnKl5AOqW69z4EUfs9M/Tq4WtMGIgxIXfFdgrAKeYWv+FMEx14ip4gXcJ9mWldKfjIR0UBBQ==", "album"=>{"title"=>"asga", "year"=>"21324", "band_id"=>"1", "live"=>"false"}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/albums_controller.rb:10
+  [1m[36mAlbum Create (1.2ms)[0m  [1m[32mINSERT INTO "albums" ("title", "year", "band_id", "live", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "asga"], ["year", 21324], ["band_id", 1], ["live", false], ["created_at", "2022-03-15 21:25:52.403622"], ["updated_at", "2022-03-15 21:25:52.403622"]]
+  ↳ app/controllers/albums_controller.rb:10
+  [1m[35m (2.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/albums_controller.rb:10
+Redirected to http://localhost:3000/albums/5
+Completed 302 Found in 44ms (ActiveRecord: 16.1ms)
+
+
+Started GET "/albums/5" for ::1 at 2022-03-15 17:25:52 -0400
+Processing by AlbumsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mAlbum Load (0.7ms)[0m  [1m[34mSELECT  "albums".* FROM "albums" WHERE "albums"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/albums_controller.rb:24
+  Rendering albums/show.html.erb within layouts/application
+  Rendered albums/show.html.erb within layouts/application (279.3ms)
+  [1m[36mUser Load (3.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:8
+Completed 200 OK in 423ms (Views: 363.1ms | ActiveRecord: 36.8ms)
+
+
+Started GET "/albums" for ::1 at 2022-03-15 17:27:42 -0400
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.7/lib/active_record/log_subscriber.rb:98
+  
+ActionController::RoutingError (No route matches [GET] "/albums"):
+  
+actionpack (5.2.7) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.7) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.7) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.7) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.7) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.7) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.7) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.7) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.7) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/albums/5/edit" for ::1 at 2022-03-15 17:29:08 -0400
+Processing by AlbumsController#edit as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mAlbum Load (0.5ms)[0m  [1m[34mSELECT  "albums".* FROM "albums" WHERE "albums"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/albums_controller.rb:19
+  Rendering albums/edit.html.erb within layouts/application
+  [1m[36mBand Load (0.8ms)[0m  [1m[34mSELECT "bands".* FROM "bands"[0m
+  ↳ app/views/albums/edit.html.erb:26
+  Rendered albums/edit.html.erb within layouts/application (67.6ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:8
+Completed 200 OK in 143ms (Views: 91.0ms | ActiveRecord: 21.0ms)
+
+
+Started PATCH "/albums" for ::1 at 2022-03-15 17:29:13 -0400
+  
+ActionController::RoutingError (No route matches [PATCH] "/albums"):
+  
+actionpack (5.2.7) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.7) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.7) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.7) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.7) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.7) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.7) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.7) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.7) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started PATCH "/albums" for ::1 at 2022-03-15 17:29:54 -0400
+  
+ActionController::RoutingError (No route matches [PATCH] "/albums"):
+  
+actionpack (5.2.7) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.7) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.7) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.7) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.7) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.7) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.7) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.7) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.7) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started PATCH "/albums" for ::1 at 2022-03-15 17:30:31 -0400
+  
+ActionController::RoutingError (No route matches [PATCH] "/albums"):
+  
+actionpack (5.2.7) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.7) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.7) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.7) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.7) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.7) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.7) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.7) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.7) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started PATCH "/albums" for ::1 at 2022-03-15 17:30:36 -0400
+  
+ActionController::RoutingError (No route matches [PATCH] "/albums"):
+  
+actionpack (5.2.7) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.7) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.7) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.7) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.7) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.7) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.7) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.7) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.7) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started PATCH "/albums" for ::1 at 2022-03-15 17:31:02 -0400
+  
+ActionController::RoutingError (No route matches [PATCH] "/albums"):
+  
+actionpack (5.2.7) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.7) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.7) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.7) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.7) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.7) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.7) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.7) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.7) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started PATCH "/albums" for ::1 at 2022-03-15 17:31:20 -0400
+  [1m[35m (2.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/appacademystudent/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.7/lib/active_record/log_subscriber.rb:98
+  
+ActionController::RoutingError (No route matches [PATCH] "/albums"):
+  
+actionpack (5.2.7) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.7) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.7) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.7) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.7) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.7) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.7) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.7) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.7) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started PATCH "/albums" for ::1 at 2022-03-15 17:33:05 -0400
+  
+ActionController::RoutingError (No route matches [PATCH] "/albums"):
+  
+actionpack (5.2.7) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.7) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.7) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.7) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.7) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.7) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.7) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.7) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.7) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/albums/5/edit" for ::1 at 2022-03-15 17:33:09 -0400
+Processing by AlbumsController#edit as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mAlbum Load (0.8ms)[0m  [1m[34mSELECT  "albums".* FROM "albums" WHERE "albums"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/albums_controller.rb:19
+  Rendering albums/edit.html.erb within layouts/application
+  [1m[36mBand Load (1.4ms)[0m  [1m[34mSELECT "bands".* FROM "bands"[0m
+  ↳ app/views/albums/edit.html.erb:26
+  Rendered albums/edit.html.erb within layouts/application (492.7ms)
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:8
+Completed 200 OK in 587ms (Views: 521.0ms | ActiveRecord: 41.0ms)
+
+
+Started PATCH "/albums" for ::1 at 2022-03-15 17:33:11 -0400
+  
+ActionController::RoutingError (No route matches [PATCH] "/albums"):
+  
+actionpack (5.2.7) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.7) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.7) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.7) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.7) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.7) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.7) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.7) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.7) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started PATCH "/albums" for ::1 at 2022-03-15 17:33:27 -0400
+  
+ActionController::RoutingError (No route matches [PATCH] "/albums"):
+  
+actionpack (5.2.7) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.7) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.7) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.7) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.7) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.7) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.7) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.7) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.7) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started PATCH "/albums" for ::1 at 2022-03-15 17:35:50 -0400
+  
+ActionController::RoutingError (No route matches [PATCH] "/albums"):
+  
+actionpack (5.2.7) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.7) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.7) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.7) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.7) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.7) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.7) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.7) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.7) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/albums/5/edit" for ::1 at 2022-03-15 17:35:57 -0400
+Processing by AlbumsController#edit as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mAlbum Load (1.8ms)[0m  [1m[34mSELECT  "albums".* FROM "albums" WHERE "albums"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/albums_controller.rb:19
+  Rendering albums/edit.html.erb within layouts/application
+  [1m[36mBand Load (0.5ms)[0m  [1m[34mSELECT "bands".* FROM "bands"[0m
+  ↳ app/views/albums/edit.html.erb:26
+  Rendered albums/edit.html.erb within layouts/application (50.8ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:8
+Completed 200 OK in 91ms (Views: 85.4ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/albums/5/edit" for ::1 at 2022-03-15 17:35:59 -0400
+Processing by AlbumsController#edit as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mAlbum Load (3.5ms)[0m  [1m[34mSELECT  "albums".* FROM "albums" WHERE "albums"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/albums_controller.rb:19
+  Rendering albums/edit.html.erb within layouts/application
+  [1m[36mBand Load (0.5ms)[0m  [1m[34mSELECT "bands".* FROM "bands"[0m
+  ↳ app/views/albums/edit.html.erb:26
+  Rendered albums/edit.html.erb within layouts/application (50.9ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:8
+Completed 200 OK in 91ms (Views: 83.3ms | ActiveRecord: 4.4ms)
+
+
+Started PATCH "/albums/5" for ::1 at 2022-03-15 17:36:00 -0400
+Processing by AlbumsController#update as HTML
+  Parameters: {"authenticity_token"=>"YEjNEe81bwPkujS17cV9DrP8dKqqe3+gOckAd15ruaUrQthV4AjIiwaN+LOLiCBMnNijyWxXHfRXFBJecmKgKA==", "album"=>{"title"=>"asga", "year"=>"21324", "band_id"=>"1", "live"=>"false"}, "id"=>"5"}
+  [1m[36mAlbum Load (2.3ms)[0m  [1m[34mSELECT  "albums".* FROM "albums" WHERE "albums"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/albums_controller.rb:29
+  [1m[35m (4.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/albums_controller.rb:30
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/albums_controller.rb:30
+Redirected to http://localhost:3000/albums/5
+Completed 302 Found in 16ms (ActiveRecord: 6.7ms)
+
+
+Started GET "/albums/5" for ::1 at 2022-03-15 17:36:00 -0400
+Processing by AlbumsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mAlbum Load (1.9ms)[0m  [1m[34mSELECT  "albums".* FROM "albums" WHERE "albums"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/albums_controller.rb:24
+  Rendering albums/show.html.erb within layouts/application
+  Rendered albums/show.html.erb within layouts/application (54.3ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:8
+Completed 200 OK in 87ms (Views: 82.8ms | ActiveRecord: 2.4ms)
+
+
+Started PATCH "/albums/5" for ::1 at 2022-03-15 17:36:06 -0400
+Processing by AlbumsController#update as HTML
+  Parameters: {"authenticity_token"=>"YEjNEe81bwPkujS17cV9DrP8dKqqe3+gOckAd15ruaUrQthV4AjIiwaN+LOLiCBMnNijyWxXHfRXFBJecmKgKA==", "album"=>{"title"=>"asga", "year"=>"21324", "band_id"=>"2", "live"=>"false"}, "id"=>"5"}
+  [1m[36mAlbum Load (3.5ms)[0m  [1m[34mSELECT  "albums".* FROM "albums" WHERE "albums"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/albums_controller.rb:29
+  [1m[35m (1.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/albums_controller.rb:30
+  [1m[36mAlbum Update (2.1ms)[0m  [1m[33mUPDATE "albums" SET "band_id" = $1, "updated_at" = $2 WHERE "albums"."id" = $3[0m  [["band_id", 2], ["updated_at", "2022-03-15 21:36:06.623677"], ["id", 5]]
+  ↳ app/controllers/albums_controller.rb:30
+  [1m[35m (4.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/albums_controller.rb:30
+Redirected to http://localhost:3000/albums/5
+Completed 302 Found in 21ms (ActiveRecord: 10.9ms)
+
+
+Started GET "/albums/5" for ::1 at 2022-03-15 17:36:06 -0400
+Processing by AlbumsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mAlbum Load (0.6ms)[0m  [1m[34mSELECT  "albums".* FROM "albums" WHERE "albums"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/albums_controller.rb:24
+  Rendering albums/show.html.erb within layouts/application
+  Rendered albums/show.html.erb within layouts/application (30.6ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:8
+Completed 200 OK in 61ms (Views: 58.0ms | ActiveRecord: 1.0ms)
+
+

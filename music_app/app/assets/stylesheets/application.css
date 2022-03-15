@@ -18,11 +18,11 @@ header {
   font-size: 100pt;
 }
 
-form {
+/* form {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-}
+} */
 
 a {
   background-color: chocolate;

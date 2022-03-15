@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MusicApp</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+     <h1>Title: <%= @album.title %></h1>
+     <p>Released: <%= @album.year %></p>
+     <p>Band_id: <%= @album.band_id %></p>
+     <% if @album.live %>
+      <p>Recorded Live</p>
+    <% else %>
+      <p>Recorded in Studio</p>
+      <% end %>
+  </body>
+</html>
