@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MusicApp</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+     <form action="<%= users_url %>" method = "POST">
+      <label for="Email">Email
+        <input type="text" id = "Email" name = "user[email]">
+      </label>
+      <label for="Password">Password
+        <input type="text" id = "Password" name = "user[password]">
+      </label>
+      <input type="submit" value="Create User">
+     </form>
+  </body>
+</html>
